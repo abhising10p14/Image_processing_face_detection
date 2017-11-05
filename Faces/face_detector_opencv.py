@@ -14,9 +14,7 @@ front_faces  = front_face_cascade.detectMultiScale(gray, 1.1, 5)
 
 side_faces = side_face_cascade.detectMultiScale(gray,1.1,5)
 
-'''print("the type is ")
-print(type(front_faces))
-print(type(side_faces))'''
+
 for (x,y,w,h) in front_faces:
     cv2.rectangle(img,(x,y),(x+w,y+h),(255,0,0),2)
     roi_gray = gray[y:y+h, x:x+w]
