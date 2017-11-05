@@ -1,4 +1,4 @@
-'''
+
 	So here I am going to explain how to build a face recognization model of your own.
 	It took me around 3-4 days of filling the required module directories and put the required openface 
 	models and the lua in models in correct directories.So I will explain each and ever thing
